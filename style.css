@@ -58,5 +58,21 @@ span.redirects{
 
 .about-Me > p{
     max-width: 500px;
+    font-size: 18px;
+    font-weight: normal;
     text-align: left;
+}
+
+.autoSizeImg{
+    width: 450px;
+    height: 450px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .autoSizeImg{
+        width: 200px;
+        height: 200px;
+        background-color:green
+    }
 }
