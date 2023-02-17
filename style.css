@@ -11,6 +11,10 @@ h1:hover {
     background-color: aquamarine;
 }
 
+em{
+    font-weight:bold
+}
+
 @keyframes slamination {
     0% {
       color: green;
